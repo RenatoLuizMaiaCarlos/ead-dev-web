@@ -1,6 +1,5 @@
 
 /* USANDO JQUERY */
-
 function abrirJanela(){
 	
 	var n1 = 2;
@@ -74,4 +73,3 @@ $(document).ready(function(){
 		}
 	});
 });
-
