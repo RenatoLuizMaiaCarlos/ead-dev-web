@@ -1,9 +1,9 @@
 	body { text-align: center; }
 	p {text-align: center; }
 	
-	#button { background-color: #2BFAA0; border: none; margin-left:170px; }
+	#button { background-color: #2BFAA0; border: none; }
 	
-	.retangulo { margin:auto;border: 5px solid black; }
+	.retangulo { position: relative; margin:auto;border: 5px solid black; }
 	
 	#ret0 { width:400px; background-color: gray; }
 	
