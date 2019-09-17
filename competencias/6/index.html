@@ -1,13 +1,47 @@
-<DOCTYPE html>
-    
+<DOCTYPE html>  
 <html>
     <head>
-        <title>EXEMPLO BOOTSTRAP</title>>
+        <!-- meta tags obrigatorias-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS do Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">  
+
+        <title>EXEMPLO BOOTSTRAP</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
-        <script src="js/jquery-3.4.1.js"></script>
-        <script src="js/bootstrap.js"></script>
-    </head>
         
+       
+    </head>
     <body>
+        <h1 class="display-1 m-3">Hello, Bootstrap!</h1>
+        <form class="form-horizontal well">
+
+            <div class="control-group">
+                <label class="control-label" for="inputEmail" >E-mail</label>
+                <div class="controls">
+                    <input id="inputEmail" type="text" placeholder="Digite o email"/>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="inputSenha">Senha</label>
+                <div class="controls">
+                    <input id="inputSenha" type="password" placeholder="Digite senha"/>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <div class="controls">
+                    <label class="checkbox" ><input type="checkbox"/>Lembrar minha senha</label>
+                    
+                </div>
+                <div class="controls">
+                    <button class="btn" type="submit">Acessar</button>
+                </div>
+            </div>
+        </form>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery-3.4.1.js"></script>
     </body>
 </html>
