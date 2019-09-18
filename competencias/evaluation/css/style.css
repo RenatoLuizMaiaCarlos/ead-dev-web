@@ -1,0 +1,10 @@
+body{
+    text-align: left; 
+}
+
+#form1{padding-left: 50px;}
+
+#sex{margin-right: 40px;}
+.form-group{
+    width: 50%;
+}

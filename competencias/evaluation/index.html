@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- meta tag obrigatorias-->
+        <meta charset="utf-8">
+        <!-- compatibilidade para dispositivos Mobile -->>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- CSS do Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css"> 
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/> -->
+        <!-- local CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- local JS -->
+        <script src="js/localScript.js"></script>
+        <!--Bibliotecas JS BootStrap-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <title>Avaliação</title>
+    </head>
+    <body>
+       <div id="titulo"> </div>
+       <div id="form1">
+          <h1 class="display-3 m-3">Avaliação Web Design!</h1>
+         <form>
+          <!-- NOME-->
+            <div class="form-group">
+              <label for="InputName"><strong>Nome Completo</strong></label>
+              <input type="text" class="form-control" id="InputName" placeholder="Inserir nome">   
+            </div>
+          <!--SEXO-->
+            <div><label class="form-group" id="sex"><strong>Sexo</strong></label></div>
+            <div class="custom-control custom-radio custom-control-inline">
+              
+              <input type="radio" class="custom-control-input" id="customRadio" name="radioGroup">
+              <label class="custom-control-label" for="customRadio">Masculino</label>
+            </div> 
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" class="custom-control-input" id="customRadio2" name="radioGroup">
+              <label class="custom-control-label" for="customRadio2">Feminino</label>
+            </div> 
+          <!-- CPF-->
+            <div class="form-group">
+              <label for="InputCPF"><strong>CPF</strong></label>
+              <input type="text" class="form-control" id="InputCPF" placeholder="xxx.xxx.xxx-xx">
+            </div>
+            <div class="form-group">
+          <!-- RG-->
+            <div class="form-group">
+              <label for="InputRG"><strong>RG</strong></label>
+              <input type="text" class="form-control" id="InputRG" placeholder="xxxxxxxxx">
+            </div>
+          <!-- DATA DE NASCIMENTO-->
+          <div class="form-group">
+              <label for="InputBornDate"><strong>Data de Nascimento</strong></label>
+              <input type="text" class="form-control" id="InputBornDate" placeholder="dd/mm/aaaa">
+            </div>
+            <div class="form-group">
+              <label for="InputPassword"><strong>Senha</strong></label>
+              <input type="password" class="form-control" id="InputPassword" placeholder="******">
+            </div>
+            <button type="button" class="btn btn-outline-dark btn-sm" onclick="register()">Enviar</button>
+          </form>
+        </div>
+    </body>
+</html>
